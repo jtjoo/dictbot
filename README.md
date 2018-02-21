@@ -8,6 +8,16 @@
 
 #startrek 해시태그가 붙은 트윗을 찾아 리트윗한다.
 
+영영사전 기능
+```
+예를들어 "bot 뜻"이라고 멘션을 보내면
+
+bot: The larva of a botfly, which infests the skin of various mammals, producing warbles, or the nasal passage of sheep, or the stomach of horses. @jt_joo
+
+라고 답이 옴.
+```
+
+
 ## 트위터 계정
 
 [@jtjoo_bot](https://twitter.com/jtjoo_bot)
