@@ -1,7 +1,7 @@
 {
   "name": "twitterbotplay",
-  "version": "0.0.1",
-  "description": "A tweetbot that search a word from wiktionary",
+  "version": "0.0.2",
+  "description": "JT's play bot",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js",
@@ -15,18 +15,17 @@
     "twitter",
     "twit",
     "tweet",
-    "bot",
-    "dictionary",
-    "wiktionary"
+    "bot"
   ],
   "author": "Jintae Joo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jtjoo/dictbot/issues"
+    "url": "https://github.com/jtjoo/twitterbotplay/issues"
   },
-  "homepage": "https://github.com/jtjoo/dictbot#readme",
+  "homepage": "https://github.com/jtjoo/twitterbotplay#readme",
   "dependencies": {
-    "twit": "^2.2.9"
+    "twit": "^2.2.9",
+    "word-definition": "^2.1.6"
   },
   "devDependencies": {}
 }
