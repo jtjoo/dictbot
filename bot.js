@@ -23,10 +23,10 @@ var getHashtags = function() {
 // Retweet #startrek
 var retweet = function() {
 
-	let hashtags = getHashtags();
+    // let hashtags = getHashtags();
 
 	let params = {
-		q: hashtags,
+		q: "#startrek",
 		result_type: 'recent',
 		count: 2,
 		lang: 'en'
@@ -60,8 +60,8 @@ var retweet = function() {
 }
 
 // console.log(getHashtags());
-// retweet();
-// setInterval(retweet, 3000000);
+retweet();
+setInterval(retweet, 3000000);
 
 // get Mentions from Stream
 var mentions = function() {
