@@ -1,0 +1,32 @@
+{
+  "name": "twitterbotplay",
+  "version": "0.0.1",
+  "description": "A tweetbot that search a word from wiktionary",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jtjoo/twitterbotplay.git"
+  },
+  "keywords": [
+    "twitter",
+    "twit",
+    "tweet",
+    "bot",
+    "dictionary",
+    "wiktionary"
+  ],
+  "author": "Jintae Joo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jtjoo/dictbot/issues"
+  },
+  "homepage": "https://github.com/jtjoo/dictbot#readme",
+  "dependencies": {
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {}
+}
