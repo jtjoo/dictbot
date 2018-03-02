@@ -23,7 +23,7 @@ var getHashtags = function() {
 // Retweet #startrek
 var retweet = function() {
 
-    // let hashtags = getHashtags();
+    let hashtags = getHashtags();
 
 	let params = {
 		q: "#startrek",
